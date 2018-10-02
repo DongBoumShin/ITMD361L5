@@ -1,0 +1,131 @@
+/*I kind of don't know what I want to do with this website design, so it may be messy.
+Sorry if it's an eyesore.'*/
+h1  {
+  color : azure;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  width: 40%;
+  height: 40px;
+  float:left;
+  top: 1%;
+  left: 1%;
+  margin: 0;
+  margin-bottom: 3em;
+  border: 0;
+}
+h2{
+  color : aliceblue;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  width: 40%;
+  height: 40px;
+  float: right;
+  margin: 0;
+  margin-bottom: 3em;
+  border: 0;
+}
+.e  {
+  width: inherit;
+  height: auto;
+  position: fixed;
+  top: 10%;
+  left: 0;
+}
+/*figcaption.e{
+  position: fixed;
+  top:50%;/*how to make it move related to pic?*/
+  /*left: 0;
+}*/
+.s  {
+  width: inherit;
+  height: auto;
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+}
+/*figcaption.s{
+  position: fixed;
+  top: 68%;
+  left: 0;
+}*/
+.u  {
+  width: inherit;
+  height:auto;
+  position: fixed;
+  top: 10%;
+  right: 0;
+}
+/*figcaption.u{
+  position: fixed;
+  top: 50%;
+  right: 0;
+}*/
+.n  {
+  width: inherit;
+  height: auto;
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+}
+/*figcaption.n{
+  position: fixed;
+  top: 68%;
+  right: 0;
+}*/
+figure{
+  color:aqua;
+  width : 25%;
+  margin : 10px;
+}
+section.list  {
+  position: relative;
+  top:3em;
+  left: 30%;
+  width: 40%;
+  font-family: serif;
+}
+section.list ul li {
+  display: inline;
+  color: whitesmoke;
+  list-style-type: circle;/*This doesn't work with inline somehow?*/
+}
+section p, pre {
+  color: lightyellow;
+}
+table {
+  color: beige;
+  border-style: groove;
+  border-color: cornsilk;
+  border-width: 4px;
+  background-color: darkslategray;
+  width: 40%;
+  position: relative;
+  top:3em;
+  left: 28%;
+}
+th  {
+  border-style: ridge;
+  border-width: 3px;
+  border-color: ghostwhite;
+}
+td  {
+  border-style: solid;
+  border-width: 2px;
+  border-color: blanchedalmond;
+}
+footer  {
+  color: bisque;
+  position: relative;
+  top: 3em;
+  left: 30%;
+  width : 40%;
+}
+body {
+  background-image: url("images/moon_rising.png");
+  background-color: #1C1C1C;
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size:cover;
+}
